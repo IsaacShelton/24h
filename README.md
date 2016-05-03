@@ -1,6 +1,6 @@
 # 24h
 The 24 Hour Programming Language Interpreter - Interprets .24h Files
-    By Isaac Shelton 5.3.2016
+By Isaac Shelton 5.3.2016
 
     Instruction List:
         '`' Allocate               Allocates number of cells               `(value).
