@@ -17,7 +17,7 @@ The 24 Hour Programming Language Interpreter - Interprets .24h Files
         '&' Goto                   Jumps to that location in the file      &(value).
         '@' Conditional Goto       Jumps to that location if cell is 1     @(value).
         ':' Get Current Cell       Sets the Cell value to the Cell index   :
-        '#' Recall                 Sets the Cell to the Current Cell value #
+        '#' Recall                 Sets the Cell index to the Cell value   #
         '?' Conditional            Evaluates depending on condition        ?(condition)(value).(result cell).
             '=' Checks for equality     ?=100.0.
             '<' Less Than               ?<100.0.
