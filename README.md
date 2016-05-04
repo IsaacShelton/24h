@@ -16,7 +16,8 @@ The 24 Hour Programming Language Interpreter - Interprets .24h Files
         '%' Not                    Logical Not of Current Cell value       %
         '&' Goto                   Jumps to that location in the file      &(value).
         '@' Conditional Goto       Jumps to that location if cell is 1     @(value).
-        ':' Get Current Cell       Sets the Cell value to the Cell index   :
+        ':' Here                   Sets the Cell value to the Cell index   :
+        ';' Current Cell           Sets a Cell to the current Cell index   ;(value).
         '#' Recall                 Sets the Cell index to the Cell value   #
         '?' Conditional            Evaluates depending on condition        ?(condition)(value).(result cell).
             '=' Checks for equality     ?=100.0.
